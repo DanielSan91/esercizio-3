@@ -1,0 +1,165 @@
+body {
+  background: linear-gradient(to bottom right, #c47289, #7da78f, #ffffcc);
+}
+header{
+width: 100vw !important;
+}
+
+.hero-header {
+  background-color: #5d5d5d;
+  padding: 4rem 0;
+  text-align: center;
+  color: #fff;
+}
+
+
+
+
+
+.card-text {
+    display: none;
+  }
+  
+  .card:hover .card-text {
+    display: flex;
+  }
+  
+  .card.active .card-text {
+    display: flex;
+  }
+
+  .row {
+    justify-content: center;
+  }
+
+
+ #recensioni {
+    width: 100%;
+    font-size: smaller;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    top: 50px;
+  }
+
+  #album {
+  display: none;
+}
+
+.show-album {
+    position: relative;
+    color: #2b2b2f;
+    border-radius: 50px;
+    background: rgb(191,177,154);
+    top: 10px;
+    height: 26px;
+    font-size: small;
+}
+
+.list-group-numbered {
+  top: 20px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#recensioni {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  
+}
+
+#top-album {
+  position: relative;
+  display: flex;
+  margin: 30px 130px;;
+  top: 10px;
+  font-size:x-large;
+  background-color: transparent;
+  border: none;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  font-family: 'Mynerve', cursive;;
+}
+
+
+.album-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.album-info img {
+  width: 100%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.album-info p {
+  margin: 0;
+  width: 100%;
+}
+
+
+
+
+#schifo{
+  position: relative;
+  display: flex;
+  margin: 30px 130px;;
+  top: 10px;
+  font-size:x-large;
+  background-color: transparent;
+  border: none;
+  align-items: center;
+  justify-content: space-between;
+  width: 180px;
+  font-family: 'Mynerve', cursive;;
+}
+
+.sottotitolo {
+  position: relative;
+  display: flex;
+  margin: 30px 130px;;
+  top: 1px;
+  font-size:x-large;
+  background-color: transparent;
+  border: none;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Mynerve', cursive;;
+
+}
+
+
+#griglia {
+    position: relative;
+    top: 50px;
+    margin: 0;
+    padding: 0;
+  
+}
+
+#griglia img {
+    width: 200px;
+    height: 200px;
+    border: none;
+    object-fit: cover;
+  }
+
+  #my-footer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+
+  
+  }
