@@ -1,19 +1,6 @@
-body {
+main {
   background: linear-gradient(to bottom right, #c47289, #7da78f, #ffffcc);
-}
-header{
-width: 100vw !important;
-}
-
-.hero-header {
-  background-color: #5d5d5d;
-  padding: 4rem 0;
-  text-align: center;
-  color: #fff;
-}
-
-
-
+  }
 
 
 .card-text {
@@ -78,7 +65,6 @@ width: 100vw !important;
 #top-album {
   position: relative;
   display: flex;
-  margin: 30px 130px;;
   top: 10px;
   font-size:x-large;
   background-color: transparent;
@@ -103,10 +89,6 @@ width: 100vw !important;
   margin-right: 20px;
 }
 
-.album-info p {
-  margin: 0;
-  width: 100%;
-}
 
 
 
@@ -114,21 +96,19 @@ width: 100vw !important;
 #schifo{
   position: relative;
   display: flex;
-  margin: 30px 130px;;
   top: 10px;
   font-size:x-large;
   background-color: transparent;
   border: none;
   align-items: center;
   justify-content: space-between;
-  width: 180px;
   font-family: 'Mynerve', cursive;;
 }
 
 .sottotitolo {
   position: relative;
   display: flex;
-  margin: 30px 130px;;
+  margin: 30px 130px;
   top: 1px;
   font-size:x-large;
   background-color: transparent;
@@ -143,8 +123,7 @@ width: 100vw !important;
 #griglia {
     position: relative;
     top: 50px;
-    margin: 0;
-    padding: 0;
+   
   
 }
 
